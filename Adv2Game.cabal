@@ -1,0 +1,12 @@
+name:           Adv2Game
+version:        0.1
+cabal-version:  >= 1.2
+build-type:     Simple
+
+executable Adv2Game
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   base >= 4, haskell98
+  ghc-options:     -Wall
+  other-modules:   QuestMain
+
